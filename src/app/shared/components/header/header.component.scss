@@ -1,0 +1,14 @@
+ul {
+    display: flex;
+
+    li {
+        list-style-type: none;
+        cursor: pointer;
+        margin: 0 0.5rem 0 0;
+
+        a {
+            font-size: 24;
+            text-decoration: none;
+        }
+    }
+}
