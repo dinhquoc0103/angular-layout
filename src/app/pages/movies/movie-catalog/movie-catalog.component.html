@@ -1,2 +1,12 @@
 <p>movie-catalog works!</p>
 <h1>{{ title }}</h1>
+<div class="movies">
+    <ul class="movie-grid" *ngIf="movieList.length > 0">
+        <li *ngFor="let movie of movieList" id="`movie-${movie.id}`">
+            <a routerLink="detail/{{ movie.id }}">
+                <h3>{{ movie.movieName }}</h3>
+            </a>
+            <p>{{ movie.year }}</p>
+        </li>
+    </ul>
+</div>

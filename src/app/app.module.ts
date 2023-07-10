@@ -16,7 +16,7 @@ import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

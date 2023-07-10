@@ -4,12 +4,6 @@ import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.
 import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
 
 const routes: Routes = [
-  // { path: '', loadChildren: () => import('./pages/main/main.module').then(m => m.MainModule) },
-  // { path: 'home', loadChildren: () => import('./pages/main/main.module').then(m => m.MainModule) },
-  // { path: 'auth', loadChildren: () => import('./pages/auth/auth.module').then(m => m.AuthModule) },
-  // { path: 'movies', loadChildren: () => import('./pages/movies/movies.module').then(m => m.MoviesModule) },
-  // { path: '**', loadChildren: () => import('./pages/errors/errors.module').then(m => m.ErrorsModule) },
-
   {
     path: '',
     component: DefaultLayoutComponent,
